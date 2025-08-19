@@ -9,6 +9,9 @@ t=p+c+m;
 printf("Total marks scored=%f\n",t);
 a=t/3;
 printf("Average marks scored=%f\n",a);
+  if (p<35 || c<35 || m<35)
+  {printf("Grade=Fail\n");}
+    else{
 
 if(a>=70)
 {printf("Grade= Distinction\n");}
@@ -20,6 +23,8 @@ else if(50>a>=35)
 {printf("Grade=Third Class\n");}
 else
 {printf("Grade=Fail\n");}
+}
 
 
 }
+
